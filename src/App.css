@@ -1,0 +1,43 @@
+#root {
+  text-align: center;
+}
+a {
+  text-align: center;
+  font-size: 20px;
+}
+a:hover {
+  background-color: white;
+  transition: 0.1s ease-in;
+}
+#new-list-text:focus {
+  outline: none !important;
+}
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.btn {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.tasks {
+  text-decoration: none;
+}
+.present {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.past {
+  text-decoration: line-through !important;
+  color: grey;
+}
+.mdi:hover {
+  color: #007bff;
+}
+
+#modal-content {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
